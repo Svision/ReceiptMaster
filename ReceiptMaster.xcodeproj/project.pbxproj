@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46EBFE66284ED4750055458C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE65284ED4750055458C /* Tests_iOS.swift */; };
+		46EBFE68284ED4750055458C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE67284ED4750055458C /* Tests_iOSLaunchTests.swift */; };
+		46EBFE72284ED4750055458C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE71284ED4750055458C /* Tests_macOS.swift */; };
+		46EBFE74284ED4750055458C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE73284ED4750055458C /* Tests_macOSLaunchTests.swift */; };
+		46EBFE75284ED4750055458C /* ReceiptMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE4D284ED4720055458C /* ReceiptMasterApp.swift */; };
+		46EBFE76284ED4750055458C /* ReceiptMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE4D284ED4720055458C /* ReceiptMasterApp.swift */; };
+		46EBFE77284ED4750055458C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE4E284ED4720055458C /* ContentView.swift */; };
+		46EBFE78284ED4750055458C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EBFE4E284ED4720055458C /* ContentView.swift */; };
+		46EBFE79284ED4750055458C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EBFE4F284ED4750055458C /* Assets.xcassets */; };
+		46EBFE7A284ED4750055458C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EBFE4F284ED4750055458C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EBFE62284ED4750055458C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EBFE48284ED4720055458C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EBFE53284ED4750055458C;
+			remoteInfo = "ReceiptMaster (iOS)";
+		};
+		46EBFE6E284ED4750055458C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EBFE48284ED4720055458C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EBFE59284ED4750055458C;
+			remoteInfo = "ReceiptMaster (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46EBFE4D284ED4720055458C /* ReceiptMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptMasterApp.swift; sourceTree = "<group>"; };
+		46EBFE4E284ED4720055458C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46EBFE4F284ED4750055458C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46EBFE54284ED4750055458C /* ReceiptMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EBFE5A284ED4750055458C /* ReceiptMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EBFE5C284ED4750055458C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		46EBFE61284ED4750055458C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EBFE65284ED4750055458C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		46EBFE67284ED4750055458C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		46EBFE6D284ED4750055458C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EBFE71284ED4750055458C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		46EBFE73284ED4750055458C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EBFE51284ED4750055458C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE57284ED4750055458C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE5E284ED4750055458C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE6A284ED4750055458C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EBFE47284ED4720055458C = {
+			isa = PBXGroup;
+			children = (
+				46EBFE4C284ED4720055458C /* Shared */,
+				46EBFE5B284ED4750055458C /* macOS */,
+				46EBFE64284ED4750055458C /* Tests iOS */,
+				46EBFE70284ED4750055458C /* Tests macOS */,
+				46EBFE55284ED4750055458C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46EBFE4C284ED4720055458C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				46EBFE4D284ED4720055458C /* ReceiptMasterApp.swift */,
+				46EBFE4E284ED4720055458C /* ContentView.swift */,
+				46EBFE4F284ED4750055458C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		46EBFE55284ED4750055458C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46EBFE54284ED4750055458C /* ReceiptMaster.app */,
+				46EBFE5A284ED4750055458C /* ReceiptMaster.app */,
+				46EBFE61284ED4750055458C /* Tests iOS.xctest */,
+				46EBFE6D284ED4750055458C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EBFE5B284ED4750055458C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				46EBFE5C284ED4750055458C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		46EBFE64284ED4750055458C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				46EBFE65284ED4750055458C /* Tests_iOS.swift */,
+				46EBFE67284ED4750055458C /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		46EBFE70284ED4750055458C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				46EBFE71284ED4750055458C /* Tests_macOS.swift */,
+				46EBFE73284ED4750055458C /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46EBFE53284ED4750055458C /* ReceiptMaster (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EBFE7D284ED4750055458C /* Build configuration list for PBXNativeTarget "ReceiptMaster (iOS)" */;
+			buildPhases = (
+				46EBFE50284ED4750055458C /* Sources */,
+				46EBFE51284ED4750055458C /* Frameworks */,
+				46EBFE52284ED4750055458C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReceiptMaster (iOS)";
+			productName = "ReceiptMaster (iOS)";
+			productReference = 46EBFE54284ED4750055458C /* ReceiptMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46EBFE59284ED4750055458C /* ReceiptMaster (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EBFE80284ED4750055458C /* Build configuration list for PBXNativeTarget "ReceiptMaster (macOS)" */;
+			buildPhases = (
+				46EBFE56284ED4750055458C /* Sources */,
+				46EBFE57284ED4750055458C /* Frameworks */,
+				46EBFE58284ED4750055458C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReceiptMaster (macOS)";
+			productName = "ReceiptMaster (macOS)";
+			productReference = 46EBFE5A284ED4750055458C /* ReceiptMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46EBFE60284ED4750055458C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EBFE83284ED4750055458C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				46EBFE5D284ED4750055458C /* Sources */,
+				46EBFE5E284ED4750055458C /* Frameworks */,
+				46EBFE5F284ED4750055458C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EBFE63284ED4750055458C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 46EBFE61284ED4750055458C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		46EBFE6C284ED4750055458C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EBFE86284ED4750055458C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				46EBFE69284ED4750055458C /* Sources */,
+				46EBFE6A284ED4750055458C /* Frameworks */,
+				46EBFE6B284ED4750055458C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EBFE6F284ED4750055458C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 46EBFE6D284ED4750055458C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EBFE48284ED4720055458C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					46EBFE53284ED4750055458C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					46EBFE59284ED4750055458C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					46EBFE60284ED4750055458C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 46EBFE53284ED4750055458C;
+					};
+					46EBFE6C284ED4750055458C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 46EBFE59284ED4750055458C;
+					};
+				};
+			};
+			buildConfigurationList = 46EBFE4B284ED4720055458C /* Build configuration list for PBXProject "ReceiptMaster" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46EBFE47284ED4720055458C;
+			productRefGroup = 46EBFE55284ED4750055458C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46EBFE53284ED4750055458C /* ReceiptMaster (iOS) */,
+				46EBFE59284ED4750055458C /* ReceiptMaster (macOS) */,
+				46EBFE60284ED4750055458C /* Tests iOS */,
+				46EBFE6C284ED4750055458C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46EBFE52284ED4750055458C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EBFE79284ED4750055458C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE58284ED4750055458C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EBFE7A284ED4750055458C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE5F284ED4750055458C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE6B284ED4750055458C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46EBFE50284ED4750055458C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EBFE77284ED4750055458C /* ContentView.swift in Sources */,
+				46EBFE75284ED4750055458C /* ReceiptMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE56284ED4750055458C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EBFE78284ED4750055458C /* ContentView.swift in Sources */,
+				46EBFE76284ED4750055458C /* ReceiptMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE5D284ED4750055458C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EBFE68284ED4750055458C /* Tests_iOSLaunchTests.swift in Sources */,
+				46EBFE66284ED4750055458C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EBFE69284ED4750055458C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EBFE74284ED4750055458C /* Tests_macOSLaunchTests.swift in Sources */,
+				46EBFE72284ED4750055458C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46EBFE63284ED4750055458C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EBFE53284ED4750055458C /* ReceiptMaster (iOS) */;
+			targetProxy = 46EBFE62284ED4750055458C /* PBXContainerItemProxy */;
+		};
+		46EBFE6F284ED4750055458C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EBFE59284ED4750055458C /* ReceiptMaster (macOS) */;
+			targetProxy = 46EBFE6E284ED4750055458C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46EBFE7B284ED4750055458C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46EBFE7C284ED4750055458C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		46EBFE7E284ED4750055458C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.songchanghao.ReceiptMaster;
+				PRODUCT_NAME = ReceiptMaster;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46EBFE7F284ED4750055458C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.songchanghao.ReceiptMaster;
+				PRODUCT_NAME = ReceiptMaster;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EBFE81284ED4750055458C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.songchanghao.ReceiptMaster;
+				PRODUCT_NAME = ReceiptMaster;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46EBFE82284ED4750055458C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.songchanghao.ReceiptMaster;
+				PRODUCT_NAME = ReceiptMaster;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		46EBFE84284ED4750055458C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.songchanghao.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReceiptMaster (iOS)";
+			};
+			name = Debug;
+		};
+		46EBFE85284ED4750055458C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.songchanghao.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ReceiptMaster (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EBFE87284ED4750055458C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.songchanghao.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ReceiptMaster (macOS)";
+			};
+			name = Debug;
+		};
+		46EBFE88284ED4750055458C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWY4FZL2UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.songchanghao.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ReceiptMaster (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EBFE4B284ED4720055458C /* Build configuration list for PBXProject "ReceiptMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EBFE7B284ED4750055458C /* Debug */,
+				46EBFE7C284ED4750055458C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EBFE7D284ED4750055458C /* Build configuration list for PBXNativeTarget "ReceiptMaster (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EBFE7E284ED4750055458C /* Debug */,
+				46EBFE7F284ED4750055458C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EBFE80284ED4750055458C /* Build configuration list for PBXNativeTarget "ReceiptMaster (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EBFE81284ED4750055458C /* Debug */,
+				46EBFE82284ED4750055458C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EBFE83284ED4750055458C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EBFE84284ED4750055458C /* Debug */,
+				46EBFE85284ED4750055458C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EBFE86284ED4750055458C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EBFE87284ED4750055458C /* Debug */,
+				46EBFE88284ED4750055458C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EBFE48284ED4720055458C /* Project object */;
+}
